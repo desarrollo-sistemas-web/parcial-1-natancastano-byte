@@ -7,4 +7,11 @@
 
 function suma($numeros) {
     // Tu código aquí
+    $resultado = 0;
+    foreach ($numeros as $numero);
+    {
+        $resultado += $numero;
+    }
+    return $resultado;
 }
+echo suma(1,2,3);

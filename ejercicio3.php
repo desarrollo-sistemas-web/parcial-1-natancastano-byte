@@ -5,4 +5,9 @@
 
 function esPar($num) {
     // Tu código aquí
+    if ($num %2==0) {
+        return true;
+    } else {
+        return false;
+    }
 }

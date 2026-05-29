@@ -5,4 +5,7 @@
 
 function generarTablaMultiplicar($num) {
     // Tu código aquí
+    for ($num=0; $num <=10; $num++){
+        echo "3 x $num= ". 3*$num ."<br>";
+    }
 }
