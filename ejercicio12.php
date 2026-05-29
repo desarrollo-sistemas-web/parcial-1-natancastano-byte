@@ -7,4 +7,9 @@
 
 function calcularFactorial($numero) {
     // Tu código aquí
+    if ($numero ==0){
+        return 1;
+    }
+    return $numero * calcularFactorial($numero -1);
 }
+echo calcularFactorial(5);
